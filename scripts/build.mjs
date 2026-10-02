@@ -52,7 +52,11 @@ const hourOfDay = (iso) => {
   return h + m / 60;
 };
 
-async function fetchData() {
+// Solo se vuelven a leer los commits de los repos cuyo último push ha cambiado,
+// así la comprobación periódica cuesta una llamada a la API cuando no hay novedades.
+async function fetchData(previous) {
+  const siteRepo = `${site.github}.github.io`;
+  const cached = new Map((previous?.repos || []).map((r) => [r.name, r]));
   const repos = (await all(`/users/${site.github}/repos?type=owner&sort=pushed`))
     .filter((r) => !r.private && !r.fork);
 
@@ -62,10 +66,16 @@ async function fetchData() {
   let latest = null;
 
   for (const r of repos) {
-    const dates = (await all(`/repos/${site.github}/${r.name}/commits`))
-      .filter(isMine)
-      .map((c) => c.commit.author.date)
-      .sort();
+    // El repo del portfolio recibe un commit del bot en cada actualización: se relee
+    // siempre y no guarda su push, o cada publicación provocaría la siguiente.
+    const pushed = r.name === siteRepo ? null : r.pushed_at;
+    const old = cached.get(r.name);
+    const dates = pushed && old?.dates && old.pushed === pushed
+      ? old.dates
+      : (await all(`/repos/${site.github}/${r.name}/commits`))
+        .filter(isMine)
+        .map((c) => c.commit.author.date)
+        .sort();
     for (const d of dates) {
       const t = hourOfDay(d);
       hours[Math.floor(t)]++;
@@ -80,9 +90,11 @@ async function fetchData() {
       homepage: r.homepage || '',
       url: r.html_url,
       created: r.created_at,
+      pushed,
       commits: dates.length,
       first: dates[0] || null,
-      latest: dates.at(-1) || r.pushed_at,
+      latest: dates.at(-1) || pushed,
+      dates,
     });
   }
 
@@ -106,7 +118,7 @@ async function loadData() {
     if (!previous) throw new Error('No hay data/github.json; ejecuta sin --offline.');
     return previous;
   }
-  const fresh = await fetchData();
+  const fresh = await fetchData(previous);
   // La fecha solo cambia cuando cambian los datos, para no generar commits vacíos.
   const { generatedAt, ...prevBody } = previous || {};
   fresh.generatedAt = previous && JSON.stringify(prevBody) === JSON.stringify(fresh)
@@ -238,6 +250,7 @@ function projectHtml(p, lang, t) {
   const copy = p[lang];
   const rows = [];
   if (p.stack?.length) rows.push([t.specStack, esc(p.stack.join(' · '))]);
+  for (const x of p.extra || []) rows.push([x.label[lang], esc(x.value[lang])]);
   if (copy.status) rows.push([t.specStatus, esc(copy.status)]);
   if (p.repos.length > 1) {
     rows.push([t.specParts, p.repos.map((n) => ext(`https://github.com/${site.github}/${n}`, n)).join('<span class="sep"> · </span>')]);
@@ -286,7 +299,11 @@ function page(lang, data) {
   const uni = rest.filter(isUni);
 
   const dateFmt = new Intl.DateTimeFormat(lang, { day: 'numeric', month: 'short', year: 'numeric', timeZone: site.timeZone });
-  const latest = data.latest;
+  // El último commit que se enseña es el de un repo visible, no el del propio portfolio.
+  const latest = data.repos
+    .filter((r) => r.commits && !site.hidden.includes(r.name))
+    .map((r) => ({ repo: r.name, date: r.latest }))
+    .sort((a, b) => b.date.localeCompare(a.date))[0];
 
   return `<!doctype html>
 <html lang="${lang}">
@@ -325,7 +342,7 @@ ${LANGS.map((l) => `<a href="${hrefs[l]}" lang="${l}" hreflang="${l}" title="${e
 <section class="wrap hero">
 <div class="hero-text">
 <p class="label">${esc(t.eyebrow)}</p>
-<h1>${esc(t.headline)}</h1>
+<h1>${t.headline.split(/(?<=\.)\s+/).map((s) => `<span>${esc(s)}</span>`).join(' ')}</h1>
 <p class="lede">${esc(t.lede)}</p>
 </div>
 <figure class="dial">

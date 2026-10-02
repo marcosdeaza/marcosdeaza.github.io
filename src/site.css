@@ -126,7 +126,7 @@ a:hover { text-decoration-color: var(--ivory); }
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+  grid-template-columns: minmax(0, 1fr) minmax(300px, 450px);
   align-items: center;
   gap: clamp(40px, 6vw, 112px);
   min-height: min(calc(100svh - 90px), 920px);
@@ -135,10 +135,12 @@ a:hover { text-decoration-color: var(--ivory); }
 
 .hero h1 {
   margin: 30px 0 36px;
-  font: 400 clamp(34px, 5.1vw, 76px)/1.05 var(--f-title);
+  font: 400 clamp(34px, 4.6vw, 70px)/1.05 var(--f-title);
   letter-spacing: .012em;
-  text-wrap: balance;
+  text-wrap: pretty;
 }
+
+.hero h1 span { display: block; }
 
 .lede {
   max-width: 33em;
@@ -289,7 +291,7 @@ a:hover { text-decoration-color: var(--ivory); }
   font-size: clamp(20px, 1.7vw, 24px);
   line-height: 1.55;
 }
-.prose p + p { font-size: 18px; color: var(--alu); }
+.prose p:last-child:not(:first-child) { font-size: 18px; color: var(--alu); }
 
 /* ------------------------------------------------------------ archivo */
 

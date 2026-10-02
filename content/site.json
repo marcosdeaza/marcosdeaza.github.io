@@ -4,21 +4,54 @@
   "siteUrl": "https://marcosdeaza.github.io/",
   "timeZone": "Europe/Madrid",
   "email": "",
-  "authorNames": ["Marcos de Aza", "Marcos", "marcosdeaza", "MARKITOS-E"],
-
-  "hidden": ["symphony-stresser", "README", "marcosdeaza.github.io", "jeff-bot-archivo"],
-  "university": ["scheduler-sim", "cpp-threads-basico"],
+  "authorNames": [
+    "Marcos de Aza",
+    "Marcos",
+    "marcosdeaza",
+    "MARKITOS-E"
+  ],
+  "hidden": [
+    "symphony-stresser",
+    "README",
+    "marcosdeaza.github.io",
+    "jeff-bot-archivo"
+  ],
+  "university": [
+    "scheduler-sim",
+    "cpp-threads-basico"
+  ],
   "promoteTopic": "portfolio",
-
   "featured": [
     {
       "id": "deiza",
       "name": "Deiza",
-      "repos": ["deiza-core", "deiza-code", "Deiza-App"],
-      "stack": ["TypeScript", "React", "Flask", "Electron", "Node"],
+      "repos": [
+        "deiza-core",
+        "deiza-code",
+        "Deiza-App"
+      ],
+      "stack": [
+        "TypeScript",
+        "React",
+        "Flask",
+        "Electron",
+        "Node"
+      ],
       "links": [
-        { "href": "https://deiza.org", "label": { "es": "deiza.org", "en": "deiza.org" } },
-        { "href": "https://github.com/marcosdeaza/deiza-core", "label": { "es": "Código", "en": "Code" } }
+        {
+          "href": "https://deiza.org",
+          "label": {
+            "es": "deiza.org",
+            "en": "deiza.org"
+          }
+        },
+        {
+          "href": "https://github.com/marcosdeaza/deiza-core",
+          "label": {
+            "es": "Código",
+            "en": "Code"
+          }
+        }
       ],
       "es": {
         "summary": "Un workspace de IA con chat, documentos, presentaciones, imagen, vídeo y búsqueda, más un agente de código para la terminal y el escritorio.",
@@ -32,13 +65,114 @@
       }
     },
     {
+      "id": "security-arsenal",
+      "name": "Security Arsenal",
+      "repos": [
+        "claude-code-security-arsenal"
+      ],
+      "stack": [
+        "Python",
+        "Bash",
+        "Claude Code"
+      ],
+      "extra": [
+        {
+          "label": {
+            "es": "Cubre",
+            "en": "Covers"
+          },
+          "value": {
+            "es": "Reconocimiento, web, cloud, red team, ingeniería inversa y malware, forense, detección, inteligencia de amenazas, GRC, cadena de suministro, IA y OT/ICS",
+            "en": "Recon, web, cloud, red team, reverse engineering and malware, forensics, detection, threat intelligence, GRC, supply chain, AI and OT/ICS"
+          }
+        }
+      ],
+      "links": [
+        {
+          "href": "https://github.com/marcosdeaza/claude-code-security-arsenal",
+          "label": {
+            "es": "Código",
+            "en": "Code"
+          }
+        }
+      ],
+      "es": {
+        "summary": "Colección de skills de ciberseguridad para Claude Code: un núcleo de 22 skills ofensivas y defensivas y un catálogo del resto del ecosistema.",
+        "detail": "Es una curación que acredita a cada autor. Lo que añade es una puerta de autorización que pide el alcance antes de ayudar en tareas ofensivas y una plantilla común para que cada hallazgo salga con el mismo formato de informe.",
+        "status": "Publicado"
+      },
+      "en": {
+        "summary": "A cybersecurity skill collection for Claude Code: a 22-skill offensive and defensive core plus a catalog of the wider ecosystem.",
+        "detail": "It is a curation that credits every author. What it adds is an authorization gate that asks for scope before helping with offensive work, and a shared template so every finding comes out in the same report format.",
+        "status": "Released"
+      }
+    },
+    {
+      "id": "faultline",
+      "name": "Faultline",
+      "repos": [
+        "faultline"
+      ],
+      "stack": [
+        "JavaScript",
+        "Express",
+        "Claude API"
+      ],
+      "extra": [
+        {
+          "label": {
+            "es": "Detecta",
+            "en": "Finds"
+          },
+          "value": {
+            "es": "Inyección SQL y de comandos, XSS, secretos en el código, criptografía débil, fallos de autenticación, errores de memoria y condiciones de carrera",
+            "en": "SQL and command injection, XSS, hardcoded secrets, weak crypto, auth flaws, memory safety issues and race conditions"
+          }
+        }
+      ],
+      "links": [
+        {
+          "href": "https://github.com/marcosdeaza/faultline",
+          "label": {
+            "es": "Código",
+            "en": "Code"
+          }
+        }
+      ],
+      "es": {
+        "summary": "Analizador de vulnerabilidades con IA. Pegas o subes código y devuelve un informe de seguridad con los fallos ordenados por gravedad y cómo corregir cada uno.",
+        "status": "Prototipo funcional"
+      },
+      "en": {
+        "summary": "An AI vulnerability analyzer. Paste or upload code and get a security report with issues sorted by severity and how to fix each one.",
+        "status": "Working prototype"
+      }
+    },
+    {
       "id": "tapadera",
       "name": "Tapadera",
-      "repos": ["tapadera"],
-      "stack": ["Swift", "Rust"],
+      "repos": [
+        "tapadera"
+      ],
+      "stack": [
+        "Swift",
+        "Rust"
+      ],
       "links": [
-        { "href": "https://github.com/marcosdeaza/tapadera/releases/latest", "label": { "es": "Descargar", "en": "Download" } },
-        { "href": "https://github.com/marcosdeaza/tapadera", "label": { "es": "Código", "en": "Code" } }
+        {
+          "href": "https://github.com/marcosdeaza/tapadera/releases/latest",
+          "label": {
+            "es": "Descargar",
+            "en": "Download"
+          }
+        },
+        {
+          "href": "https://github.com/marcosdeaza/tapadera",
+          "label": {
+            "es": "Código",
+            "en": "Code"
+          }
+        }
       ],
       "es": {
         "summary": "Cierras el portátil y sigue trabajando. App de barra de menús para macOS y herramienta de terminal para macOS, Windows y Linux.",
@@ -54,10 +188,23 @@
     {
       "id": "novareel",
       "name": "Novareel",
-      "repos": ["novareel"],
-      "stack": ["JavaScript", "Node", "Vertex AI", "MCP"],
+      "repos": [
+        "novareel"
+      ],
+      "stack": [
+        "JavaScript",
+        "Node",
+        "Vertex AI",
+        "MCP"
+      ],
       "links": [
-        { "href": "https://github.com/marcosdeaza/novareel", "label": { "es": "Código", "en": "Code" } }
+        {
+          "href": "https://github.com/marcosdeaza/novareel",
+          "label": {
+            "es": "Código",
+            "en": "Code"
+          }
+        }
       ],
       "es": {
         "summary": "Estudio de producción con IA sobre Vertex AI: foto de producto, vídeo con sonido, grafismo animado, música y locución, dirigidos por un agente a partir de un encargo escrito.",
@@ -73,10 +220,22 @@
     {
       "id": "deiza-mapper",
       "name": "deiza-mapper",
-      "repos": ["deiza-mapper"],
-      "stack": ["Python", "Playwright", "Chromium"],
+      "repos": [
+        "deiza-mapper"
+      ],
+      "stack": [
+        "Python",
+        "Playwright",
+        "Chromium"
+      ],
       "links": [
-        { "href": "https://github.com/marcosdeaza/deiza-mapper", "label": { "es": "Código", "en": "Code" } }
+        {
+          "href": "https://github.com/marcosdeaza/deiza-mapper",
+          "label": {
+            "es": "Código",
+            "en": "Code"
+          }
+        }
       ],
       "es": {
         "summary": "Motor que convierte lo que escribe un modelo de lenguaje en PDF, PowerPoint editable, Word o una web empaquetada.",
@@ -92,10 +251,22 @@
     {
       "id": "jeff",
       "name": "Jeff",
-      "repos": ["jeff-bot"],
-      "stack": ["JavaScript", "Node", "Baileys"],
+      "repos": [
+        "jeff-bot"
+      ],
+      "stack": [
+        "JavaScript",
+        "Node",
+        "Baileys"
+      ],
       "links": [
-        { "href": "https://github.com/marcosdeaza/jeff-bot", "label": { "es": "Código", "en": "Code" } }
+        {
+          "href": "https://github.com/marcosdeaza/jeff-bot",
+          "label": {
+            "es": "Código",
+            "en": "Code"
+          }
+        }
       ],
       "es": {
         "summary": "Bot de WhatsApp con el horario de mi clase. Cada persona ajusta el suyo sin cambiárselo a nadie.",
@@ -107,35 +278,15 @@
         "detail": "When something changes, it asks who it affects: just the person asking or the whole class. It understands text and voice notes.",
         "status": "Used by my class"
       }
-    },
-    {
-      "id": "djtorres",
-      "name": "DJ Torres",
-      "commission": true,
-      "year": 2026,
-      "repos": [],
-      "stack": ["TanStack Start", "Tailwind", "Node"],
-      "links": [
-        { "href": "https://djtorres.es", "label": { "es": "djtorres.es", "en": "djtorres.es" } }
-      ],
-      "es": {
-        "summary": "Web para un DJ: agenda de actuaciones que él mismo actualiza, contacto y versión en valenciano.",
-        "status": "En línea"
-      },
-      "en": {
-        "summary": "Website for a DJ: a gig calendar he updates himself, contact, and a Valencian version.",
-        "status": "Live"
-      }
     }
   ],
-
   "i18n": {
     "es": {
       "title": "Marcos de Aza",
-      "description": "Estudio Ingeniería Informática en Valencia y construyo productos de software completos: IA, herramientas nativas y bots.",
-      "eyebrow": "Ingeniería Informática · Valencia",
-      "headline": "Construyo productos enteros, de la idea al servidor.",
-      "lede": "Estudio Ingeniería Informática en Valencia. Trabajo sobre todo con IA: un workspace propio, agentes de código, herramientas nativas para macOS y bots que mi clase usa cada día.",
+      "description": "Estudio Ingeniería Informática en Valencia. Construyo productos con IA y dedico buena parte de mi tiempo a la ciberseguridad.",
+      "eyebrow": "Ingeniería Informática · Ciberseguridad · Valencia",
+      "headline": "Construyo software. Y luego intento romperlo.",
+      "lede": "Estudio Ingeniería Informática en Valencia. Hago productos con IA de la idea al servidor y dedico buena parte de mi tiempo a la ciberseguridad, tanto ofensiva como defensiva.",
       "dialLabel": "Commits por hora del día",
       "dialCaption": "Commits por hora del día, en hora de Valencia. La aguja marca la hora actual.",
       "dialDesc": "Reloj de 24 horas. Cada marca interior es una franja de 20 minutos y su largo, los commits hechos en ella. La hora con más actividad es de {from}:00 a {to}:00.",
@@ -151,6 +302,7 @@
       "approach": "Criterio",
       "approachText": [
         "La IA ha cambiado lo que una sola persona puede construir, y en cuánto tiempo. Me lo tomo como una responsabilidad: software pequeño, entendible y terminado, que funcione igual el lunes por la mañana que la noche en que lo desplegué.",
+        "La seguridad no es una fase del final. Reviso lo que construyo como lo revisaría alguien que quiere romperlo.",
         "Hago todo el recorrido: diseño, código, servidores y despliegue. Mis proyectos corren en máquinas que administro yo."
       ],
       "archive": "Archivo",
@@ -165,10 +317,10 @@
     },
     "en": {
       "title": "Marcos de Aza",
-      "description": "Computer Engineering student in Valencia building complete software products: AI, native tools and bots.",
-      "eyebrow": "Computer Engineering · Valencia",
-      "headline": "I build complete products, from idea to server.",
-      "lede": "I study Computer Engineering in Valencia. Most of my work is with AI: my own workspace, coding agents, native macOS tools, and bots my class uses every day.",
+      "description": "Computer Engineering student in Valencia. I build AI products and spend a good part of my time on cybersecurity.",
+      "eyebrow": "Computer Engineering · Cybersecurity · Valencia",
+      "headline": "I build software. Then I try to break it.",
+      "lede": "I study Computer Engineering in Valencia. I build AI products from idea to server and spend a good part of my time on cybersecurity, both offensive and defensive.",
       "dialLabel": "Commits by hour of day",
       "dialCaption": "Commits by hour of day, Valencia time. The needle shows the current time.",
       "dialDesc": "A 24-hour gauge. Each inner mark is a 20-minute slot and its length, the commits made in it. The busiest hour is {from}:00 to {to}:00.",
@@ -184,6 +336,7 @@
       "approach": "Approach",
       "approachText": [
         "AI has changed what a single person can build, and how fast. I take that as a responsibility: small, understandable, finished software that works on Monday morning just as it did the night I shipped it.",
+        "Security is not a final phase. I review what I build the way someone trying to break it would.",
         "I cover the whole path: design, code, servers and deployment. My projects run on machines I manage myself."
       ],
       "archive": "Archive",

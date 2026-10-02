@@ -4,9 +4,10 @@ Portfolio de Marcos de Aza. Sitio estático en español (`/`) e inglés (`/en/`)
 
 ## Cómo se actualiza
 
-Una acción se ejecuta cada hora, lee los repositorios públicos y sus commits, y vuelve a publicar el sitio si algo ha cambiado.
+Una acción comprueba cada 10 minutos si alguno de los repositorios públicos ha recibido un push. Si es así, vuelve a leer solo los commits de esos repositorios y publica el sitio de nuevo; si no, no hace nada.
 
 - Un repositorio público nuevo aparece solo en el Archivo.
+- La acción guarda `data/github.json` con un commit propio: haz `git pull --rebase` antes de subir cambios.
 - Para destacarlo en Proyectos, añádele el topic `portfolio` en GitHub. Usará su descripción, su lenguaje y su web.
 - Para escribir el texto a mano en los dos idiomas, añade una entrada en `featured` dentro de `content/site.json`.
 - Para ocultar uno, añade su nombre a `hidden`. Los que llevan el topic `university` van al grupo Universidad.
