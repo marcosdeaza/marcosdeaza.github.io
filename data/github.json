@@ -1,12 +1,12 @@
 {
   "user": "marcosdeaza",
   "totals": {
-    "commits": 330,
-    "repos": 40,
+    "commits": 331,
+    "repos": 41,
     "languages": 7
   },
   "hours": [
-    18,
+    19,
     10,
     1,
     5,
@@ -34,7 +34,7 @@
   "buckets": [
     8,
     4,
-    6,
+    7,
     5,
     3,
     2,
@@ -106,10 +106,22 @@
     6
   ],
   "latest": {
-    "repo": "Deiza-App",
-    "date": "2026-10-01T19:07:29Z"
+    "repo": "marcosdeaza.github.io",
+    "date": "2026-10-02T22:47:43Z"
   },
   "repos": [
+    {
+      "name": "marcosdeaza.github.io",
+      "description": "Portfolio de Marcos de Aza. Se actualiza solo a partir de sus repositorios de GitHub.",
+      "language": "JavaScript",
+      "topics": [],
+      "homepage": "https://marcosdeaza.github.io",
+      "url": "https://github.com/marcosdeaza/marcosdeaza.github.io",
+      "created": "2026-10-02T22:50:27Z",
+      "commits": 1,
+      "first": "2026-10-02T22:47:43Z",
+      "latest": "2026-10-02T22:47:43Z"
+    },
     {
       "name": "Deiza-App",
       "description": "Deiza para escritorio: el workspace de Deiza y Deiza Code en una sola app para macOS, Windows y Linux.",
@@ -768,5 +780,5 @@
       "latest": "2025-10-22T22:07:32Z"
     }
   ],
-  "generatedAt": "2026-10-02T22:45:48.054Z"
+  "generatedAt": "2026-10-02T22:50:58.018Z"
 }
