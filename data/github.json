@@ -1,0 +1,772 @@
+{
+  "user": "marcosdeaza",
+  "totals": {
+    "commits": 330,
+    "repos": 40,
+    "languages": 7
+  },
+  "hours": [
+    18,
+    10,
+    1,
+    5,
+    8,
+    6,
+    2,
+    0,
+    0,
+    0,
+    1,
+    1,
+    28,
+    26,
+    9,
+    7,
+    45,
+    46,
+    24,
+    27,
+    26,
+    18,
+    6,
+    16
+  ],
+  "buckets": [
+    8,
+    4,
+    6,
+    5,
+    3,
+    2,
+    1,
+    0,
+    0,
+    2,
+    2,
+    1,
+    3,
+    3,
+    2,
+    2,
+    3,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    14,
+    13,
+    16,
+    8,
+    2,
+    0,
+    4,
+    5,
+    1,
+    1,
+    5,
+    7,
+    12,
+    26,
+    14,
+    14,
+    18,
+    8,
+    11,
+    5,
+    11,
+    7,
+    9,
+    10,
+    6,
+    10,
+    12,
+    3,
+    3,
+    3,
+    3,
+    0,
+    10,
+    0,
+    6
+  ],
+  "latest": {
+    "repo": "Deiza-App",
+    "date": "2026-10-01T19:07:29Z"
+  },
+  "repos": [
+    {
+      "name": "Deiza-App",
+      "description": "Deiza para escritorio: el workspace de Deiza y Deiza Code en una sola app para macOS, Windows y Linux.",
+      "language": "JavaScript",
+      "topics": [
+        "ai-assistant",
+        "coding-agent",
+        "desktop-app",
+        "electron",
+        "macos",
+        "windows"
+      ],
+      "homepage": "https://deiza.org/desktop",
+      "url": "https://github.com/marcosdeaza/Deiza-App",
+      "created": "2026-09-23T16:23:16Z",
+      "commits": 11,
+      "first": "2026-09-23T16:23:14Z",
+      "latest": "2026-10-01T19:07:29Z"
+    },
+    {
+      "name": "deiza-core",
+      "description": "El workspace y el backend de deiza.org. Compatible con cualquier endpoint y API mediante un .env hipercustomizable.",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "flask",
+        "react",
+        "self-hosted",
+        "typescript",
+        "vite",
+        "workspace"
+      ],
+      "homepage": "https://deiza.org",
+      "url": "https://github.com/marcosdeaza/deiza-core",
+      "created": "2026-06-16T16:17:32Z",
+      "commits": 7,
+      "first": "2026-09-23T17:05:50Z",
+      "latest": "2026-10-01T18:04:58Z"
+    },
+    {
+      "name": "deiza-code",
+      "description": "Autonomous AI coding agent in your terminal. Native Deiza API integration, 1-click browser login, surgical code editing & adaptable to any LLM endpoint.",
+      "language": "JavaScript",
+      "topics": [],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/deiza-code",
+      "created": "2026-09-19T13:45:45Z",
+      "commits": 38,
+      "first": "2026-09-19T13:45:38Z",
+      "latest": "2026-10-01T17:54:36Z"
+    },
+    {
+      "name": "capu",
+      "description": "Capu, la mascota de Deiza Code: un capullo de rosa pixel art animado por código. 44 escenas, sprites SVG, kit de marca y retrato de terminal.",
+      "language": "HTML",
+      "topics": [],
+      "homepage": "https://marcosdeaza.github.io/capu/",
+      "url": "https://github.com/marcosdeaza/capu",
+      "created": "2026-10-01T14:00:41Z",
+      "commits": 4,
+      "first": "2026-10-01T14:00:40Z",
+      "latest": "2026-10-01T17:29:00Z"
+    },
+    {
+      "name": "scheduler-sim",
+      "description": "Simulador de scheduler FIFO y Round Robin - Practica 2 PCD",
+      "language": "C++",
+      "topics": [],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/scheduler-sim",
+      "created": "2026-09-30T11:12:36Z",
+      "commits": 7,
+      "first": "2026-09-30T09:40:39Z",
+      "latest": "2026-09-30T12:48:58Z"
+    },
+    {
+      "name": "cpp-threads-basico",
+      "description": "",
+      "language": "C++",
+      "topics": [],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/cpp-threads-basico",
+      "created": "2026-09-29T14:52:21Z",
+      "commits": 16,
+      "first": "2026-09-29T14:52:20Z",
+      "latest": "2026-09-29T16:14:29Z"
+    },
+    {
+      "name": "novareel",
+      "description": "Estudio privado de producción con IA sobre Google Vertex AI: Nano Banana, Veo 3.1, Gemini Omni, Lyria 3, motion graphics por código y un director autónomo con MCP.",
+      "language": "JavaScript",
+      "topics": [
+        "gemini",
+        "generative-ai",
+        "mcp",
+        "motion-graphics",
+        "nano-banana",
+        "self-hosted",
+        "veo",
+        "vertex-ai"
+      ],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/novareel",
+      "created": "2026-09-25T13:54:10Z",
+      "commits": 1,
+      "first": "2026-09-25T13:47:22Z",
+      "latest": "2026-09-25T13:47:22Z"
+    },
+    {
+      "name": "tapadera",
+      "description": "Cierras el portatil y sigue trabajando. App de barra de menus para macOS y herramienta de linea de ordenes para macOS, Windows y Linux.",
+      "language": "Swift",
+      "topics": [],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/tapadera",
+      "created": "2026-09-22T17:09:50Z",
+      "commits": 4,
+      "first": "2026-09-22T17:08:49Z",
+      "latest": "2026-09-22T17:19:53Z"
+    },
+    {
+      "name": "deiza-mapper",
+      "description": "HTML-first rendering engine for LLM outputs: PDFs, editable PowerPoint, Word docs, and web bundles",
+      "language": "Python",
+      "topics": [],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/deiza-mapper",
+      "created": "2026-09-18T13:00:31Z",
+      "commits": 5,
+      "first": "2026-09-18T12:59:41Z",
+      "latest": "2026-09-18T18:40:59Z"
+    },
+    {
+      "name": "README",
+      "description": "",
+      "language": "",
+      "topics": [],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/README",
+      "created": "2026-09-18T11:31:26Z",
+      "commits": 1,
+      "first": "2026-09-18T11:31:21Z",
+      "latest": "2026-09-18T11:31:21Z"
+    },
+    {
+      "name": "pel-tema1-tad",
+      "description": "PEL Tema 1 - Tipos Abstractos de Datos en Python (2o Ing. Informática, UEV)",
+      "language": "Python",
+      "topics": [
+        "data-structures",
+        "python",
+        "tad",
+        "university"
+      ],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/pel-tema1-tad",
+      "created": "2026-09-18T10:56:20Z",
+      "commits": 10,
+      "first": "2026-09-18T10:56:15Z",
+      "latest": "2026-09-18T11:22:49Z"
+    },
+    {
+      "name": "claude-code-security-arsenal",
+      "description": "Curated all-in-one collection of the best cybersecurity skills for Claude Code: a 22-skill offensive + defensive core plus a mapped ecosystem. Authorized use only.",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "blue-team",
+        "claude",
+        "claude-code",
+        "claude-skills",
+        "ctf",
+        "cybersecurity",
+        "infosec",
+        "malware-analysis",
+        "penetration-testing",
+        "pentesting",
+        "red-team",
+        "security-tools",
+        "threat-hunting"
+      ],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/claude-code-security-arsenal",
+      "created": "2026-09-18T10:34:09Z",
+      "commits": 2,
+      "first": "2026-09-18T10:34:01Z",
+      "latest": "2026-09-18T10:35:57Z"
+    },
+    {
+      "name": "pudding",
+      "description": "Clean, ultra-fast natural language bridge for Unix/macOS shells. Zero dependencies, multi-provider (Ollama, DeepSeek, OpenAI).",
+      "language": "Python",
+      "topics": [
+        "cli",
+        "deepseek",
+        "nlp",
+        "ollama",
+        "openai",
+        "shell",
+        "unix",
+        "zero-dependencies"
+      ],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/pudding",
+      "created": "2026-09-15T12:51:39Z",
+      "commits": 13,
+      "first": "2026-09-15T12:51:07Z",
+      "latest": "2026-09-16T11:21:06Z"
+    },
+    {
+      "name": "jeff-bot",
+      "description": "Bot de WhatsApp para el horario de una clase universitaria. Cada persona ajusta el suyo sin cambiárselo a nadie.",
+      "language": "JavaScript",
+      "topics": [
+        "bot",
+        "javascript",
+        "schedule",
+        "university",
+        "whatsapp-bot"
+      ],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/jeff-bot",
+      "created": "2026-09-14T17:16:34Z",
+      "commits": 15,
+      "first": "2026-09-14T16:50:16Z",
+      "latest": "2026-09-15T15:40:02Z"
+    },
+    {
+      "name": "tokenscan",
+      "description": "Crypto trading toolkit for Telegram with market data, paper trading, backtesting and strategy automation.",
+      "language": "Python",
+      "topics": [
+        "backtesting",
+        "crypto",
+        "paper-trading",
+        "python",
+        "telegram-bot",
+        "trading"
+      ],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/tokenscan",
+      "created": "2026-08-21T01:32:56Z",
+      "commits": 51,
+      "first": "2026-08-21T01:32:43Z",
+      "latest": "2026-08-22T01:10:46Z"
+    },
+    {
+      "name": "Bender-3.0",
+      "description": "Bot de Discord con IA conversacional y asistente de voz en tiempo real (Vosk + Whisper + Piper). Canales de voz temporales, acceso por keys, reputación y más.",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "discord-bot",
+        "piper",
+        "python",
+        "voice-assistant",
+        "vosk",
+        "whisper"
+      ],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/Bender-3.0",
+      "created": "2026-06-14T10:48:32Z",
+      "commits": 20,
+      "first": "2026-06-14T10:48:31Z",
+      "latest": "2026-08-15T01:05:12Z"
+    },
+    {
+      "name": "hermes",
+      "description": "Autonomous AI coding agent controlled via WhatsApp — voice notes, images, bash execution, deploy",
+      "language": "JavaScript",
+      "topics": [
+        "ai-agent",
+        "autonomous",
+        "bash",
+        "javascript",
+        "voice",
+        "whatsapp"
+      ],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/hermes",
+      "created": "2026-06-24T14:01:58Z",
+      "commits": 10,
+      "first": "2026-06-24T14:01:57Z",
+      "latest": "2026-06-25T19:17:18Z"
+    },
+    {
+      "name": "agendalix-backend-core",
+      "description": "Automated B2B scheduling engine — Next.js + Supabase + WhatsApp",
+      "language": "TypeScript",
+      "topics": [
+        "b2b",
+        "nextjs",
+        "scheduling",
+        "supabase",
+        "whatsapp"
+      ],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/agendalix-backend-core",
+      "created": "2026-06-16T16:17:32Z",
+      "commits": 9,
+      "first": "2026-06-16T16:17:29Z",
+      "latest": "2026-06-25T18:55:42Z"
+    },
+    {
+      "name": "dazly-frontend",
+      "description": "Dazly platform frontend",
+      "language": "TypeScript",
+      "topics": [
+        "frontend",
+        "typescript"
+      ],
+      "homepage": "https://dazly-frontend.vercel.app",
+      "url": "https://github.com/marcosdeaza/dazly-frontend",
+      "created": "2025-11-30T23:37:28Z",
+      "commits": 1,
+      "first": "2026-06-16T17:41:58Z",
+      "latest": "2026-06-16T17:41:58Z"
+    },
+    {
+      "name": "dazly-backend",
+      "description": "Dazly platform backend",
+      "language": "JavaScript",
+      "topics": [
+        "backend",
+        "javascript"
+      ],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/dazly-backend",
+      "created": "2025-11-30T22:59:33Z",
+      "commits": 1,
+      "first": "2026-06-16T17:41:57Z",
+      "latest": "2026-06-16T17:41:57Z"
+    },
+    {
+      "name": "Bender-Discord-Bot",
+      "description": "Discord bot with Python (older version of Bender 3.0)",
+      "language": "Python",
+      "topics": [
+        "discord-bot",
+        "python"
+      ],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/Bender-Discord-Bot",
+      "created": "2026-01-24T15:41:40Z",
+      "commits": 7,
+      "first": "2026-01-24T15:41:41Z",
+      "latest": "2026-05-26T08:18:53Z"
+    },
+    {
+      "name": "poo-biblioteca-equipo2",
+      "description": "Sistema de gestión de biblioteca en Python puro · POO · UEV 2026",
+      "language": "Python",
+      "topics": [
+        "library-management",
+        "oop",
+        "poo",
+        "python",
+        "university"
+      ],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/poo-biblioteca-equipo2",
+      "created": "2026-05-12T16:22:55Z",
+      "commits": 2,
+      "first": "2026-05-12T16:23:28Z",
+      "latest": "2026-05-12T16:56:36Z"
+    },
+    {
+      "name": "faultline",
+      "description": "Claude-powered code vulnerability analyzer. Find security flaws before they find you.",
+      "language": "CSS",
+      "topics": [
+        "ai",
+        "code-analysis",
+        "security",
+        "vulnerability-scanner"
+      ],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/faultline",
+      "created": "2026-05-11T14:44:05Z",
+      "commits": 8,
+      "first": "2026-05-11T14:43:34Z",
+      "latest": "2026-05-11T14:55:31Z"
+    },
+    {
+      "name": "Holy-Exchange",
+      "description": "Cryptocurrency exchange interface",
+      "language": "HTML",
+      "topics": [
+        "crypto",
+        "html",
+        "trading"
+      ],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/Holy-Exchange",
+      "created": "2026-01-24T16:11:19Z",
+      "commits": 8,
+      "first": "2026-01-24T16:11:20Z",
+      "latest": "2026-01-24T16:15:35Z"
+    },
+    {
+      "name": "symphony-stresser",
+      "description": "Network stress testing tool",
+      "language": "Python",
+      "topics": [
+        "python",
+        "tools"
+      ],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/symphony-stresser",
+      "created": "2026-01-24T15:26:52Z",
+      "commits": 4,
+      "first": "2026-01-24T15:26:52Z",
+      "latest": "2026-01-24T15:30:44Z"
+    },
+    {
+      "name": "4enraya",
+      "description": "Connect Four game in C++",
+      "language": "C++",
+      "topics": [
+        "cpp",
+        "games",
+        "university"
+      ],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/4enraya",
+      "created": "2026-01-17T11:32:02Z",
+      "commits": 16,
+      "first": "2026-01-17T11:32:02Z",
+      "latest": "2026-01-21T15:54:37Z"
+    },
+    {
+      "name": "cuadradomagico",
+      "description": "Magic square solver in C++",
+      "language": "C++",
+      "topics": [
+        "algorithms",
+        "cpp",
+        "university"
+      ],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/cuadradomagico",
+      "created": "2025-12-31T20:00:46Z",
+      "commits": 3,
+      "first": "2025-12-31T20:00:47Z",
+      "latest": "2025-12-31T20:06:41Z"
+    },
+    {
+      "name": "euclides",
+      "description": "Euclidean algorithm implementation in C++",
+      "language": "C++",
+      "topics": [
+        "algorithms",
+        "cpp",
+        "university"
+      ],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/euclides",
+      "created": "2025-12-31T20:00:10Z",
+      "commits": 3,
+      "first": "2025-12-31T20:00:10Z",
+      "latest": "2025-12-31T20:06:27Z"
+    },
+    {
+      "name": "numerostriangulares",
+      "description": "Triangular numbers generator in C++",
+      "language": "C++",
+      "topics": [
+        "algorithms",
+        "cpp",
+        "university"
+      ],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/numerostriangulares",
+      "created": "2025-12-31T19:58:58Z",
+      "commits": 3,
+      "first": "2025-12-31T19:58:58Z",
+      "latest": "2025-12-31T20:06:04Z"
+    },
+    {
+      "name": "fibonacci",
+      "description": "Fibonacci sequence implementation in C++",
+      "language": "C++",
+      "topics": [
+        "algorithms",
+        "cpp",
+        "recursion",
+        "university"
+      ],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/fibonacci",
+      "created": "2025-12-31T19:51:08Z",
+      "commits": 3,
+      "first": "2025-12-31T19:51:09Z",
+      "latest": "2025-12-31T19:52:59Z"
+    },
+    {
+      "name": "hanoi",
+      "description": "Towers of Hanoi solver in C++",
+      "language": "C++",
+      "topics": [
+        "algorithms",
+        "cpp",
+        "recursion",
+        "university"
+      ],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/hanoi",
+      "created": "2025-12-31T19:32:16Z",
+      "commits": 3,
+      "first": "2025-12-31T19:32:16Z",
+      "latest": "2025-12-31T19:33:05Z"
+    },
+    {
+      "name": "wordcounter",
+      "description": "Word counter utility in C++",
+      "language": "C++",
+      "topics": [
+        "cpp",
+        "university",
+        "utilities"
+      ],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/wordcounter",
+      "created": "2025-12-31T16:56:20Z",
+      "commits": 5,
+      "first": "2025-12-31T16:56:20Z",
+      "latest": "2025-12-31T17:01:49Z"
+    },
+    {
+      "name": "convento-hangout-concept",
+      "description": "Hangout concept application",
+      "language": "JavaScript",
+      "topics": [
+        "concept",
+        "javascript",
+        "prototype"
+      ],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/convento-hangout-concept",
+      "created": "2025-10-09T16:08:37Z",
+      "commits": 2,
+      "first": "2025-12-31T16:40:22Z",
+      "latest": "2025-12-31T16:41:20Z"
+    },
+    {
+      "name": "collatz",
+      "description": "Collatz conjecture implementation in C++",
+      "language": "C++",
+      "topics": [
+        "algorithms",
+        "cpp",
+        "university"
+      ],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/collatz",
+      "created": "2025-12-31T16:27:11Z",
+      "commits": 8,
+      "first": "2025-12-31T16:27:12Z",
+      "latest": "2025-12-31T16:34:21Z"
+    },
+    {
+      "name": "Algoritmos-de-ordenacion-Bucle-Junior-VS-Sort-Burbuja",
+      "description": "Sorting algorithms comparison in C++ - Bubble Sort vs Selection Sort",
+      "language": "C++",
+      "topics": [
+        "algorithms",
+        "cpp",
+        "sorting",
+        "university"
+      ],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/Algoritmos-de-ordenacion-Bucle-Junior-VS-Sort-Burbuja",
+      "created": "2025-12-26T11:24:16Z",
+      "commits": 5,
+      "first": "2025-12-26T11:24:16Z",
+      "latest": "2025-12-26T11:28:16Z"
+    },
+    {
+      "name": "Ejercicio-9-Programacion-con-funciones-y-ficheros",
+      "description": "Functions and file handling exercises in C++",
+      "language": "C++",
+      "topics": [
+        "cpp",
+        "files",
+        "university"
+      ],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/Ejercicio-9-Programacion-con-funciones-y-ficheros",
+      "created": "2025-12-16T22:53:36Z",
+      "commits": 7,
+      "first": "2025-12-16T22:53:36Z",
+      "latest": "2025-12-19T20:37:16Z"
+    },
+    {
+      "name": "cpp3rd-programacion-iterativa",
+      "description": "Iterative programming exercises in C++ (3rd assignment)",
+      "language": "C++",
+      "topics": [
+        "cpp",
+        "iterative-programming",
+        "university"
+      ],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/cpp3rd-programacion-iterativa",
+      "created": "2025-11-13T19:10:35Z",
+      "commits": 6,
+      "first": "2025-11-13T19:10:35Z",
+      "latest": "2025-12-18T11:58:39Z"
+    },
+    {
+      "name": "cpp4th-programacion-vectorial",
+      "description": "Vector/array programming exercises in C++ (4th assignment)",
+      "language": "C++",
+      "topics": [
+        "cpp",
+        "university",
+        "vectors"
+      ],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/cpp4th-programacion-vectorial",
+      "created": "2025-11-30T22:13:50Z",
+      "commits": 5,
+      "first": "2025-11-30T22:13:50Z",
+      "latest": "2025-11-30T22:19:28Z"
+    },
+    {
+      "name": "cpp2nd-programacion-condicional",
+      "description": "Conditional programming exercises in C++ (2nd assignment)",
+      "language": "C++",
+      "topics": [
+        "conditionals",
+        "cpp",
+        "university"
+      ],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/cpp2nd-programacion-condicional",
+      "created": "2025-10-29T22:12:12Z",
+      "commits": 4,
+      "first": "2025-10-29T22:12:13Z",
+      "latest": "2025-10-29T22:16:17Z"
+    },
+    {
+      "name": "cpp1st-task",
+      "description": "First C++ programming assignment",
+      "language": "C++",
+      "topics": [
+        "basics",
+        "cpp",
+        "university"
+      ],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/cpp1st-task",
+      "created": "2025-10-22T21:58:41Z",
+      "commits": 2,
+      "first": "2025-10-22T22:05:24Z",
+      "latest": "2025-10-22T22:07:32Z"
+    }
+  ],
+  "generatedAt": "2026-10-02T22:45:48.054Z"
+}

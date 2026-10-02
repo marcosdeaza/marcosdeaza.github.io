@@ -1,0 +1,200 @@
+{
+  "github": "marcosdeaza",
+  "name": "Marcos de Aza",
+  "siteUrl": "https://marcosdeaza.github.io/",
+  "timeZone": "Europe/Madrid",
+  "email": "",
+  "authorNames": ["Marcos de Aza", "Marcos", "marcosdeaza", "MARKITOS-E"],
+
+  "hidden": ["symphony-stresser", "README", "marcosdeaza.github.io", "jeff-bot-archivo"],
+  "university": ["scheduler-sim", "cpp-threads-basico"],
+  "promoteTopic": "portfolio",
+
+  "featured": [
+    {
+      "id": "deiza",
+      "name": "Deiza",
+      "repos": ["deiza-core", "deiza-code", "Deiza-App", "capu"],
+      "stack": ["TypeScript", "React", "Flask", "Electron", "Node"],
+      "links": [
+        { "href": "https://deiza.org", "label": { "es": "deiza.org", "en": "deiza.org" } },
+        { "href": "https://github.com/marcosdeaza/deiza-core", "label": { "es": "Código", "en": "Code" } }
+      ],
+      "es": {
+        "summary": "Un workspace de IA con chat, documentos, presentaciones, imagen, vídeo y búsqueda, más un agente de código para la terminal y el escritorio.",
+        "detail": "El agente ajusta cada conversación a la ventana de contexto real del modelo y, si el uso se acaba a mitad de una tarea, deja el trabajo estable y escribe un traspaso para la siguiente sesión.",
+        "status": "En producción"
+      },
+      "en": {
+        "summary": "An AI workspace with chat, documents, slides, image, video and search, plus a coding agent for the terminal and the desktop.",
+        "detail": "The agent fits every conversation to the model’s real context window and, if usage runs out mid-task, leaves the work stable and writes a handoff for the next session.",
+        "status": "In production"
+      }
+    },
+    {
+      "id": "tapadera",
+      "name": "Tapadera",
+      "repos": ["tapadera"],
+      "stack": ["Swift", "Rust"],
+      "links": [
+        { "href": "https://github.com/marcosdeaza/tapadera/releases/latest", "label": { "es": "Descargar", "en": "Download" } },
+        { "href": "https://github.com/marcosdeaza/tapadera", "label": { "es": "Código", "en": "Code" } }
+      ],
+      "es": {
+        "summary": "Cierras el portátil y sigue trabajando. App de barra de menús para macOS y herramienta de terminal para macOS, Windows y Linux.",
+        "detail": "A diferencia de caffeinate, que solo evita el reposo por inactividad, Tapadera desactiva el reposo al cerrar la tapa y lo restaura al terminar, sin dejar rastro en el sistema.",
+        "status": "Publicada, con versiones automáticas"
+      },
+      "en": {
+        "summary": "Close the laptop and it keeps working. A menu bar app for macOS and a command-line tool for macOS, Windows and Linux.",
+        "detail": "Unlike caffeinate, which only prevents idle sleep, Tapadera disables lid-close sleep and restores it when you are done, leaving nothing behind.",
+        "status": "Released, with automated builds"
+      }
+    },
+    {
+      "id": "novareel",
+      "name": "Novareel",
+      "repos": ["novareel"],
+      "stack": ["JavaScript", "Node", "Vertex AI", "MCP"],
+      "links": [
+        { "href": "https://github.com/marcosdeaza/novareel", "label": { "es": "Código", "en": "Code" } }
+      ],
+      "es": {
+        "summary": "Estudio de producción con IA sobre Vertex AI: foto de producto, vídeo con sonido, grafismo animado, música y locución, dirigidos por un agente a partir de un encargo escrito.",
+        "detail": "Una campaña real de cuatro piezas salió en unos seis minutos por 0,87 $.",
+        "status": "Uso privado"
+      },
+      "en": {
+        "summary": "An AI production studio on Vertex AI: product photos, video with sound, motion graphics, music and voice-over, directed by an agent from a written brief.",
+        "detail": "A real four-piece campaign came out in about six minutes for $0.87.",
+        "status": "Private use"
+      }
+    },
+    {
+      "id": "deiza-mapper",
+      "name": "deiza-mapper",
+      "repos": ["deiza-mapper"],
+      "stack": ["Python", "Playwright", "Chromium"],
+      "links": [
+        { "href": "https://github.com/marcosdeaza/deiza-mapper", "label": { "es": "Código", "en": "Code" } }
+      ],
+      "es": {
+        "summary": "Motor que convierte lo que escribe un modelo de lenguaje en PDF, PowerPoint editable, Word o una web empaquetada.",
+        "detail": "Ejecuta las webs generadas en Chromium y devuelve los errores y una captura, para que el agente las arregle antes de entregarlas.",
+        "status": "En uso dentro de Deiza"
+      },
+      "en": {
+        "summary": "An engine that turns what a language model writes into PDFs, editable PowerPoint, Word documents or packaged web apps.",
+        "detail": "It runs generated web apps in Chromium and returns the errors and a screenshot, so the agent can fix them before handing them over.",
+        "status": "Used inside Deiza"
+      }
+    },
+    {
+      "id": "jeff",
+      "name": "Jeff",
+      "repos": ["jeff-bot"],
+      "stack": ["JavaScript", "Node", "Baileys"],
+      "links": [
+        { "href": "https://github.com/marcosdeaza/jeff-bot", "label": { "es": "Código", "en": "Code" } }
+      ],
+      "es": {
+        "summary": "Bot de WhatsApp con el horario de mi clase. Cada persona ajusta el suyo sin cambiárselo a nadie.",
+        "detail": "Ante un cambio pregunta a quién afecta: solo a quien lo pide o a toda la clase. Entiende texto y notas de voz.",
+        "status": "En uso por mi clase"
+      },
+      "en": {
+        "summary": "A WhatsApp bot that keeps my class schedule. Everyone adjusts their own without changing anyone else’s.",
+        "detail": "When something changes, it asks who it affects: just the person asking or the whole class. It understands text and voice notes.",
+        "status": "Used by my class"
+      }
+    },
+    {
+      "id": "djtorres",
+      "name": "DJ Torres",
+      "commission": true,
+      "year": 2026,
+      "repos": [],
+      "stack": ["TanStack Start", "Tailwind", "Node"],
+      "links": [
+        { "href": "https://djtorres.es", "label": { "es": "djtorres.es", "en": "djtorres.es" } }
+      ],
+      "es": {
+        "summary": "Web para un DJ: agenda de actuaciones que él mismo actualiza, contacto y versión en valenciano.",
+        "status": "En línea"
+      },
+      "en": {
+        "summary": "Website for a DJ: a gig calendar he updates himself, contact, and a Valencian version.",
+        "status": "Live"
+      }
+    }
+  ],
+
+  "i18n": {
+    "es": {
+      "title": "Marcos de Aza",
+      "description": "Estudio Ingeniería Informática en Valencia y construyo productos de software completos: IA, herramientas nativas y bots.",
+      "eyebrow": "Ingeniería Informática · Valencia",
+      "headline": "Construyo productos enteros, de la idea al servidor.",
+      "lede": "Estudio Ingeniería Informática en Valencia. Trabajo sobre todo con IA: un workspace propio, agentes de código, herramientas nativas para macOS y bots que mi clase usa cada día.",
+      "dialLabel": "Commits por hora del día",
+      "dialCaption": "Commits por hora del día, en hora de Valencia. La aguja marca la hora actual.",
+      "dialDesc": "Reloj de 24 horas. Cada marca interior es una franja de 20 minutos y su largo, los commits hechos en ella. La hora con más actividad es de {from}:00 a {to}:00.",
+      "dialStats": "{commits} commits en {repos} repositorios públicos",
+      "lastCommit": "Último commit en {repo}",
+      "now": "Valencia",
+      "projects": "Proyectos",
+      "commission": "Encargo",
+      "specStack": "Hecho con",
+      "specStatus": "Estado",
+      "specParts": "Partes",
+      "specLinks": "Enlaces",
+      "approach": "Criterio",
+      "approachText": [
+        "La IA ha cambiado lo que una sola persona puede construir, y en cuánto tiempo. Me lo tomo como una responsabilidad: software pequeño, entendible y terminado, que funcione igual el lunes por la mañana que la noche en que lo desplegué.",
+        "Hago todo el recorrido: diseño, código, servidores y despliegue. Mis proyectos corren en máquinas que administro yo."
+      ],
+      "archive": "Archivo",
+      "archiveIntro": "Todo lo demás que hay en mi GitHub. Esta lista se actualiza sola.",
+      "groupOwn": "Propios",
+      "groupUni": "Universidad",
+      "contact": "Contacto",
+      "contactText": "Para proyectos, prácticas o una conversación:",
+      "updated": "Datos de GitHub del {date}.",
+      "langName": "Español",
+      "skip": "Saltar al contenido"
+    },
+    "en": {
+      "title": "Marcos de Aza",
+      "description": "Computer Engineering student in Valencia building complete software products: AI, native tools and bots.",
+      "eyebrow": "Computer Engineering · Valencia",
+      "headline": "I build complete products, from idea to server.",
+      "lede": "I study Computer Engineering in Valencia. Most of my work is with AI: my own workspace, coding agents, native macOS tools, and bots my class uses every day.",
+      "dialLabel": "Commits by hour of day",
+      "dialCaption": "Commits by hour of day, Valencia time. The needle shows the current time.",
+      "dialDesc": "A 24-hour gauge. Each inner mark is a 20-minute slot and its length, the commits made in it. The busiest hour is {from}:00 to {to}:00.",
+      "dialStats": "{commits} commits across {repos} public repositories",
+      "lastCommit": "Latest commit in {repo}",
+      "now": "Valencia",
+      "projects": "Projects",
+      "commission": "Client work",
+      "specStack": "Built with",
+      "specStatus": "Status",
+      "specParts": "Parts",
+      "specLinks": "Links",
+      "approach": "Approach",
+      "approachText": [
+        "AI has changed what a single person can build, and how fast. I take that as a responsibility: small, understandable, finished software that works on Monday morning just as it did the night I shipped it.",
+        "I cover the whole path: design, code, servers and deployment. My projects run on machines I manage myself."
+      ],
+      "archive": "Archive",
+      "archiveIntro": "Everything else on my GitHub. This list updates itself.",
+      "groupOwn": "Personal",
+      "groupUni": "University",
+      "contact": "Contact",
+      "contactText": "For projects, internships or a conversation:",
+      "updated": "GitHub data from {date}.",
+      "langName": "English",
+      "skip": "Skip to content"
+    }
+  }
+}
