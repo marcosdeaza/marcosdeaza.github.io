@@ -14,7 +14,7 @@
     {
       "id": "deiza",
       "name": "Deiza",
-      "repos": ["deiza-core", "deiza-code", "Deiza-App", "capu"],
+      "repos": ["deiza-core", "deiza-code", "Deiza-App"],
       "stack": ["TypeScript", "React", "Flask", "Electron", "Node"],
       "links": [
         { "href": "https://deiza.org", "label": { "es": "deiza.org", "en": "deiza.org" } },
