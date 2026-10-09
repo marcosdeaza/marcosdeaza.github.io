@@ -1,14 +1,14 @@
 {
   "user": "marcosdeaza",
   "totals": {
-    "commits": 355,
+    "commits": 356,
     "repos": 42,
     "languages": 7
   },
   "hours": [
     22,
     10,
-    3,
+    4,
     7,
     12,
     8,
@@ -39,7 +39,7 @@
     3,
     2,
     1,
-    2,
+    3,
     0,
     3,
     2,
@@ -106,10 +106,31 @@
     6
   ],
   "latest": {
-    "repo": "practica4",
-    "date": "2026-10-05T16:53:32Z"
+    "repo": "deiza-mapper",
+    "date": "2026-10-09T00:24:09Z"
   },
   "repos": [
+    {
+      "name": "deiza-mapper",
+      "description": "HTML-first rendering engine for LLM outputs: PDFs, editable PowerPoint, Word docs, and web bundles",
+      "language": "Python",
+      "topics": [],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/deiza-mapper",
+      "created": "2026-09-18T13:00:31Z",
+      "pushed": "2026-10-09T00:24:11Z",
+      "commits": 6,
+      "first": "2026-09-18T12:59:41Z",
+      "latest": "2026-10-09T00:24:09Z",
+      "dates": [
+        "2026-09-18T12:59:41Z",
+        "2026-09-18T15:01:52Z",
+        "2026-09-18T16:39:02Z",
+        "2026-09-18T17:26:48Z",
+        "2026-09-18T18:40:59Z",
+        "2026-10-09T00:24:09Z"
+      ]
+    },
     {
       "name": "practica4",
       "description": "",
@@ -395,26 +416,6 @@
         "2026-09-22T17:11:35Z",
         "2026-09-22T17:18:08Z",
         "2026-09-22T17:19:53Z"
-      ]
-    },
-    {
-      "name": "deiza-mapper",
-      "description": "HTML-first rendering engine for LLM outputs: PDFs, editable PowerPoint, Word docs, and web bundles",
-      "language": "Python",
-      "topics": [],
-      "homepage": "",
-      "url": "https://github.com/marcosdeaza/deiza-mapper",
-      "created": "2026-09-18T13:00:31Z",
-      "pushed": "2026-09-18T18:41:00Z",
-      "commits": 5,
-      "first": "2026-09-18T12:59:41Z",
-      "latest": "2026-09-18T18:40:59Z",
-      "dates": [
-        "2026-09-18T12:59:41Z",
-        "2026-09-18T15:01:52Z",
-        "2026-09-18T16:39:02Z",
-        "2026-09-18T17:26:48Z",
-        "2026-09-18T18:40:59Z"
       ]
     },
     {
@@ -1273,5 +1274,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-10-05T18:47:22.055Z"
+  "generatedAt": "2026-10-09T00:27:19.900Z"
 }
