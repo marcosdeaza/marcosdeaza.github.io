@@ -1,7 +1,7 @@
 {
   "user": "marcosdeaza",
   "totals": {
-    "commits": 369,
+    "commits": 372,
     "repos": 42,
     "languages": 7
   },
@@ -9,8 +9,8 @@
     22,
     10,
     8,
-    8,
-    13,
+    9,
+    15,
     8,
     2,
     0,
@@ -43,8 +43,8 @@
     2,
     4,
     2,
-    2,
-    4,
+    3,
+    6,
     5,
     4,
     2,
@@ -106,47 +106,10 @@
     6
   ],
   "latest": {
-    "repo": "deiza-core",
-    "date": "2026-10-12T01:05:59Z"
+    "repo": "Deiza-App",
+    "date": "2026-10-12T02:12:55Z"
   },
   "repos": [
-    {
-      "name": "deiza-core",
-      "description": "El workspace y el backend de deiza.org. Compatible con cualquier endpoint y API mediante un .env hipercustomizable.",
-      "language": "TypeScript",
-      "topics": [
-        "ai",
-        "flask",
-        "react",
-        "self-hosted",
-        "typescript",
-        "vite",
-        "workspace"
-      ],
-      "homepage": "https://deiza.org",
-      "url": "https://github.com/marcosdeaza/deiza-core",
-      "created": "2026-06-16T16:17:32Z",
-      "pushed": "2026-10-12T01:06:00Z",
-      "commits": 14,
-      "first": "2026-09-23T17:05:50Z",
-      "latest": "2026-10-12T01:05:59Z",
-      "dates": [
-        "2026-09-23T17:05:50Z",
-        "2026-09-30T23:15:28Z",
-        "2026-10-01T12:32:07Z",
-        "2026-10-01T14:06:25Z",
-        "2026-10-01T14:35:43Z",
-        "2026-10-01T17:55:08Z",
-        "2026-10-01T18:04:58Z",
-        "2026-10-09T00:54:55Z",
-        "2026-10-09T02:14:37Z",
-        "2026-10-09T11:05:42Z",
-        "2026-10-09T14:04:29Z",
-        "2026-10-09T14:46:33Z",
-        "2026-10-09T17:29:43Z",
-        "2026-10-12T01:05:59Z"
-      ]
-    },
     {
       "name": "Deiza-App",
       "description": "Deiza para escritorio: el workspace de Deiza y Deiza Code en una sola app para macOS, Windows y Linux.",
@@ -162,10 +125,10 @@
       "homepage": "https://deiza.org/desktop",
       "url": "https://github.com/marcosdeaza/Deiza-App",
       "created": "2026-09-23T16:23:16Z",
-      "pushed": "2026-10-12T01:06:24Z",
-      "commits": 22,
+      "pushed": "2026-10-12T02:14:40Z",
+      "commits": 24,
       "first": "2026-09-23T16:23:14Z",
-      "latest": "2026-10-12T00:57:54Z",
+      "latest": "2026-10-12T02:12:55Z",
       "dates": [
         "2026-09-23T16:23:14Z",
         "2026-09-30T23:16:07Z",
@@ -188,7 +151,47 @@
         "2026-10-09T17:44:18Z",
         "2026-10-12T00:02:50Z",
         "2026-10-12T00:03:32Z",
-        "2026-10-12T00:57:54Z"
+        "2026-10-12T00:57:54Z",
+        "2026-10-12T01:56:37Z",
+        "2026-10-12T02:12:55Z"
+      ]
+    },
+    {
+      "name": "deiza-core",
+      "description": "El workspace y el backend de deiza.org. Compatible con cualquier endpoint y API mediante un .env hipercustomizable.",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "flask",
+        "react",
+        "self-hosted",
+        "typescript",
+        "vite",
+        "workspace"
+      ],
+      "homepage": "https://deiza.org",
+      "url": "https://github.com/marcosdeaza/deiza-core",
+      "created": "2026-06-16T16:17:32Z",
+      "pushed": "2026-10-12T02:03:07Z",
+      "commits": 15,
+      "first": "2026-09-23T17:05:50Z",
+      "latest": "2026-10-12T02:03:05Z",
+      "dates": [
+        "2026-09-23T17:05:50Z",
+        "2026-09-30T23:15:28Z",
+        "2026-10-01T12:32:07Z",
+        "2026-10-01T14:06:25Z",
+        "2026-10-01T14:35:43Z",
+        "2026-10-01T17:55:08Z",
+        "2026-10-01T18:04:58Z",
+        "2026-10-09T00:54:55Z",
+        "2026-10-09T02:14:37Z",
+        "2026-10-09T11:05:42Z",
+        "2026-10-09T14:04:29Z",
+        "2026-10-09T14:46:33Z",
+        "2026-10-09T17:29:43Z",
+        "2026-10-12T01:05:59Z",
+        "2026-10-12T02:03:05Z"
       ]
     },
     {
@@ -1287,5 +1290,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-10-12T01:49:52.025Z"
+  "generatedAt": "2026-10-12T08:07:53.829Z"
 }
