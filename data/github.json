@@ -1,8 +1,8 @@
 {
   "user": "marcosdeaza",
   "totals": {
-    "commits": 376,
-    "repos": 42,
+    "commits": 378,
+    "repos": 43,
     "languages": 7
   },
   "hours": [
@@ -18,7 +18,7 @@
     0,
     1,
     1,
-    28,
+    30,
     30,
     9,
     11,
@@ -69,8 +69,8 @@
     0,
     1,
     1,
+    15,
     14,
-    13,
     17,
     8,
     5,
@@ -106,10 +106,27 @@
     6
   ],
   "latest": {
-    "repo": "deiza-core",
-    "date": "2026-10-12T15:34:51Z"
+    "repo": "JEV",
+    "date": "2026-10-13T10:50:57Z"
   },
   "repos": [
+    {
+      "name": "JEV",
+      "description": "Exploración de control por voz en macOS: TypeSafe Jev, planificación con Anthropic y sesiones continuas.",
+      "language": "Swift",
+      "topics": [],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/JEV",
+      "created": "2026-10-13T10:29:54Z",
+      "pushed": "2026-10-13T10:50:59Z",
+      "commits": 2,
+      "first": "2026-10-13T10:29:45Z",
+      "latest": "2026-10-13T10:50:57Z",
+      "dates": [
+        "2026-10-13T10:29:45Z",
+        "2026-10-13T10:50:57Z"
+      ]
+    },
     {
       "name": "deiza-core",
       "description": "El workspace y el backend de deiza.org. Compatible con cualquier endpoint y API mediante un .env hipercustomizable.",
@@ -1294,5 +1311,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-10-12T17:52:08.009Z"
+  "generatedAt": "2026-10-13T14:49:34.675Z"
 }
