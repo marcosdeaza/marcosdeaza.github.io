@@ -1,8 +1,8 @@
 {
   "user": "marcosdeaza",
   "totals": {
-    "commits": 377,
-    "repos": 42,
+    "commits": 382,
+    "repos": 43,
     "languages": 7
   },
   "hours": [
@@ -15,7 +15,7 @@
     2,
     0,
     0,
-    0,
+    5,
     1,
     1,
     30,
@@ -59,8 +59,8 @@
     0,
     0,
     0,
-    0,
-    0,
+    3,
+    2,
     0,
     1,
     0,
@@ -106,10 +106,37 @@
     6
   ],
   "latest": {
-    "repo": "JEV",
-    "date": "2026-10-13T10:50:57Z"
+    "repo": "Synesis",
+    "date": "2026-10-16T07:23:17Z"
   },
   "repos": [
+    {
+      "name": "Synesis",
+      "description": "Investigación reproducible sobre TFG y TFM durante la transición de la IA generativa. Foco en Valencia, fuentes universitarias, datos auditables y metodología abierta.",
+      "language": "Python",
+      "topics": [
+        "generative-ai",
+        "open-science",
+        "reproducible-research",
+        "research-pipeline",
+        "university-theses",
+        "valencia"
+      ],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/Synesis",
+      "created": "2026-10-16T07:08:33Z",
+      "pushed": "2026-10-16T07:23:19Z",
+      "commits": 5,
+      "first": "2026-10-16T07:09:49Z",
+      "latest": "2026-10-16T07:23:17Z",
+      "dates": [
+        "2026-10-16T07:09:49Z",
+        "2026-10-16T07:11:13Z",
+        "2026-10-16T07:11:53Z",
+        "2026-10-16T07:22:07Z",
+        "2026-10-16T07:23:17Z"
+      ]
+    },
     {
       "name": "JEV",
       "description": "Exploración de control por voz en macOS: TypeSafe Jev, planificación con Anthropic y sesiones continuas.",
@@ -1295,5 +1322,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-10-14T17:59:34.769Z"
+  "generatedAt": "2026-10-16T08:25:22.292Z"
 }
