@@ -1,8 +1,8 @@
 {
   "user": "marcosdeaza",
   "totals": {
-    "commits": 406,
-    "repos": 43,
+    "commits": 408,
+    "repos": 44,
     "languages": 7
   },
   "hours": [
@@ -23,7 +23,7 @@
     13,
     18,
     48,
-    57,
+    59,
     27,
     30,
     26,
@@ -83,7 +83,7 @@
     8,
     12,
     28,
-    21,
+    23,
     18,
     18,
     8,
@@ -106,10 +106,27 @@
     6
   ],
   "latest": {
-    "repo": "Deiza-App",
-    "date": "2026-10-18T15:36:23Z"
+    "repo": "practica-git-pel",
+    "date": "2026-10-19T15:06:31Z"
   },
   "repos": [
+    {
+      "name": "practica-git-pel",
+      "description": "Práctica de Git y GitHub para PEL",
+      "language": "Python",
+      "topics": [],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/practica-git-pel",
+      "created": "2026-10-19T15:06:09Z",
+      "pushed": "2026-10-19T15:42:56Z",
+      "commits": 2,
+      "first": "2026-10-19T15:06:24Z",
+      "latest": "2026-10-19T15:06:31Z",
+      "dates": [
+        "2026-10-19T15:06:24Z",
+        "2026-10-19T15:06:31Z"
+      ]
+    },
     {
       "name": "Deiza-App",
       "description": "Deiza para escritorio: el workspace de Deiza y Deiza Code en una sola app para macOS, Windows y Linux.",
@@ -1346,5 +1363,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-10-18T16:58:37.266Z"
+  "generatedAt": "2026-10-19T20:10:28.518Z"
 }
