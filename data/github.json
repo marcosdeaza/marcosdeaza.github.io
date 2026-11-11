@@ -1,9 +1,9 @@
 {
   "user": "marcosdeaza",
   "totals": {
-    "commits": 413,
-    "repos": 44,
-    "languages": 7
+    "commits": 415,
+    "repos": 45,
+    "languages": 8
   },
   "hours": [
     22,
@@ -29,7 +29,7 @@
     26,
     21,
     8,
-    16
+    18
   ],
   "buckets": [
     8,
@@ -101,15 +101,32 @@
     3,
     4,
     1,
-    10,
+    12,
     0,
     6
   ],
   "latest": {
-    "repo": "deiza-code",
-    "date": "2026-10-27T21:28:08Z"
+    "repo": "trasgo",
+    "date": "2026-11-11T22:05:11Z"
   },
   "repos": [
+    {
+      "name": "trasgo",
+      "description": "El duende IA de tu PC: overlay 8-bit sobre cualquier juego, voz local y agente con 45 herramientas (Spotify, Discord, optimizar, red...)",
+      "language": "C#",
+      "topics": [],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/trasgo",
+      "created": "2026-11-11T22:02:07Z",
+      "pushed": "2026-11-11T22:05:40Z",
+      "commits": 2,
+      "first": "2026-11-11T22:02:04Z",
+      "latest": "2026-11-11T22:05:11Z",
+      "dates": [
+        "2026-11-11T22:02:04Z",
+        "2026-11-11T22:05:11Z"
+      ]
+    },
     {
       "name": "deiza-code",
       "description": "Autonomous AI coding agent in your terminal. Native Deiza API integration, 1-click browser login, surgical code editing & adaptable to any LLM endpoint.",
@@ -1368,5 +1385,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-10-27T21:54:59.882Z"
+  "generatedAt": "2026-11-11T22:07:16.175Z"
 }
