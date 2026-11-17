@@ -1,8 +1,8 @@
 {
   "user": "marcosdeaza",
   "totals": {
-    "commits": 420,
-    "repos": 45,
+    "commits": 424,
+    "repos": 46,
     "languages": 8
   },
   "hours": [
@@ -17,7 +17,7 @@
     0,
     5,
     1,
-    1,
+    5,
     30,
     32,
     13,
@@ -65,8 +65,8 @@
     1,
     0,
     0,
-    0,
-    0,
+    1,
+    3,
     1,
     1,
     15,
@@ -106,10 +106,29 @@
     6
   ],
   "latest": {
-    "repo": "trasgo",
-    "date": "2026-11-11T22:38:31Z"
+    "repo": "equipo2-trabajo-concurrencia",
+    "date": "2026-11-17T10:28:36Z"
   },
   "repos": [
+    {
+      "name": "equipo2-trabajo-concurrencia",
+      "description": "",
+      "language": "C++",
+      "topics": [],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/equipo2-trabajo-concurrencia",
+      "created": "2026-11-17T09:59:38Z",
+      "pushed": "2026-11-17T10:28:39Z",
+      "commits": 4,
+      "first": "2026-11-17T10:17:53Z",
+      "latest": "2026-11-17T10:28:36Z",
+      "dates": [
+        "2026-11-17T10:17:53Z",
+        "2026-11-17T10:25:54Z",
+        "2026-11-17T10:27:04Z",
+        "2026-11-17T10:28:36Z"
+      ]
+    },
     {
       "name": "trasgo",
       "description": "El duende IA de tu PC: overlay 8-bit sobre cualquier juego, voz local y agente con 45 herramientas (Spotify, Discord, optimizar, red...)",
@@ -1390,5 +1409,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-12T02:56:18.213Z"
+  "generatedAt": "2026-11-17T10:41:26.895Z"
 }
