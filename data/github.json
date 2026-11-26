@@ -1,8 +1,8 @@
 {
   "user": "marcosdeaza",
   "totals": {
-    "commits": 429,
-    "repos": 47,
+    "commits": 432,
+    "repos": 48,
     "languages": 8
   },
   "hours": [
@@ -21,7 +21,7 @@
     31,
     32,
     13,
-    21,
+    24,
     51,
     59,
     27,
@@ -78,7 +78,7 @@
     4,
     9,
     8,
-    2,
+    5,
     11,
     9,
     12,
@@ -106,10 +106,28 @@
     6
   ],
   "latest": {
-    "repo": "clinica-veterinaria-github",
-    "date": "2026-11-23T19:00:30Z"
+    "repo": "reto2-estimacion-esfuerzo",
+    "date": "2026-11-26T14:21:11Z"
   },
   "repos": [
+    {
+      "name": "reto2-estimacion-esfuerzo",
+      "description": "Reto 2 UMivale · Estimación de esfuerzo · Sprint 1 (Proyecto de Informática I)",
+      "language": "Python",
+      "topics": [],
+      "homepage": "",
+      "url": "https://github.com/marcosdeaza/reto2-estimacion-esfuerzo",
+      "created": "2026-11-26T14:20:08Z",
+      "pushed": "2026-11-26T14:21:12Z",
+      "commits": 3,
+      "first": "2026-11-26T14:20:04Z",
+      "latest": "2026-11-26T14:21:11Z",
+      "dates": [
+        "2026-11-26T14:20:04Z",
+        "2026-11-26T14:21:02Z",
+        "2026-11-26T14:21:11Z"
+      ]
+    },
     {
       "name": "clinica-veterinaria-github",
       "description": "Gestión de una clínica veterinaria · IIS · coordinación con GitHub (Issues, Projects, Discussions)",
@@ -1429,5 +1447,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-24T20:54:11.589Z"
+  "generatedAt": "2026-11-26T14:56:54.371Z"
 }
